@@ -1,4 +1,4 @@
-function [t, X] = qibas_solver(A, b, C, d, t_end, x0, k0, k1)
+function [t, X] = snn_solver(A, b, C, d, t_end, x0, k0, k1)
     % QIBAS parameters from paper
     delta0 = 1; 
     d0 = 0.99;
