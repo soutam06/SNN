@@ -32,7 +32,6 @@ end
 if size(mean_ret,1) ~= n_stocks || size(cov_mat,1) ~= n_stocks || size(cov_mat,2) ~= n_stocks
     error('Input data dimensions do not match after cleaning.');
 end
-
 %% Optional: Load sector/industry information (if available)
 try
     load('sector_data.mat'); % Should contain sector_info vector
