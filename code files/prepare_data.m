@@ -130,7 +130,7 @@ try
     fprintf('Attempting to load sector classification data...\n');
     
     % Example: Load from CSV with columns: Symbol, SectorID, SectorName
-    sector_table = readtable('sector_classification.csv');
+    sector_table = readtable('data\sector_classification.csv');
     
     % Match sectors to our symbols
     [is_member, symbol_idx] = ismember(symbols, sector_table.Symbol);
